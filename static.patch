@@ -1,0 +1,11 @@
+diff --git a/tools/gyp/configurations_make.gypi b/tools/gyp/configurations_make.gypi
+index 98d28fa..a3417bc 100644
+--- a/tools/gyp/configurations_make.gypi
++++ b/tools/gyp/configurations_make.gypi
+@@ -35,6 +35,7 @@
+           '-Wl,-z,noexecstack',
+           '-Wl,-z,now',
+           '-Wl,-z,relro',
++          '-static'
+         ],
+       },
