@@ -1,0 +1,14 @@
+diff --git a/crypto/bio/socket_helper.c b/crypto/bio/socket_helper.c
+index b1cdd1a..481278f 100644
+--- a/crypto/bio/socket_helper.c
++++ b/crypto/bio/socket_helper.c
+@@ -12,7 +12,7 @@
+  * OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+  * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. */
+
+-#define _POSIX_SOURCE
++#define _POSIX_C_SOURCE 200112L
+
+ #include <openssl/bio.h>
+ #include <openssl/err.h>
+ 
