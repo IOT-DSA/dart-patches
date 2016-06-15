@@ -1,0 +1,12 @@
+diff --git a/tools/gyp/configurations_make.gypi b/tools/gyp/configurations_make.gypi
+index 05292bf..4f5a073 100644
+--- a/tools/gyp/configurations_make.gypi
++++ b/tools/gyp/configurations_make.gypi
+@@ -14,7 +14,6 @@
+           '_FORTIFY_SOURCE=2',
+         ],
+         'cflags': [
+-          '-Werror',
+           '<@(common_gcc_warning_flags)',
+           '-Wnon-virtual-dtor',
+           '-Wvla',
